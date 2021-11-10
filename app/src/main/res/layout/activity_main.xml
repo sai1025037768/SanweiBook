@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <cn.zs.book.sanwei.ui.view.FlowRadioGroup
+        android:background="@android:color/holo_orange_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <RadioButton
+            android:text="巍峨山峰横卧1"
+            android:background="@android:color/holo_green_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioButton
+            android:text="巍峨山峰横卧2"
+            android:layout_margin="10dp"
+            android:background="@android:color/holo_green_light"
+            android:layout_width="180dp"
+            android:layout_height="60dp"/>
+
+        <RadioButton
+            android:text="巍峨山峰横卧3"
+            android:background="@android:color/holo_green_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioButton
+            android:text="巍峨山峰横卧4"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="@android:color/holo_green_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioButton
+            android:text="巍峨山峰横卧5"
+            android:background="@android:color/holo_green_light"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"/>
+    </cn.zs.book.sanwei.ui.view.FlowRadioGroup>
+
+</FrameLayout>
